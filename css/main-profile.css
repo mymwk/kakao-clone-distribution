@@ -20,6 +20,12 @@
   justify-content: center;
 }
 
+.music-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main__music {
   height: 40px;
   width: 150px;
@@ -31,8 +37,7 @@
   color: rgb(41, 29, 216);
   background-color: rgba(247, 245, 128, 0.7);
   font-weight: 600;
-  margin-left: 180px;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .main__music span {
