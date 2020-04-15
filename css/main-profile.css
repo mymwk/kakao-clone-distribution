@@ -40,6 +40,12 @@
   margin-top: 200px;
 }
 
+.music-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main__music span {
   margin-right: 10px;
 }
