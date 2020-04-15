@@ -1,0 +1,83 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend__avartar {
+  width: 50px;
+  border-radius: 35%;
+}
+
+.friend__avartar.g-avarter {
+  width: 70px;
+}
+
+.friend__avartar.m-avartar {
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avartar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
+
+.friend .friend__now-listening {
+  border: 2px solid #52e084;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.friend__now-listening span {
+  opacity: 0.6;
+}
+
+.friend__now-listening i {
+  font-size: 8px;
+}
+
+.friends__list .friend__column {
+  margin-bottom: 10px;
+}
+
+.friends__list .friends__friend {
+  margin: 5px 0px;
+  padding: 5px 0px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.friends__plus .friend:nth-child(2) {
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.chats__chat {
+  margin: 15px 0px;
+}
